@@ -49,7 +49,7 @@ body {
     height: 36px;
     border-radius: 50%;
     background: #f2fbf1;
-    animation: floaty .2s infinate;
+    animation: floaty .2s infinite;
 }
 
 #spooky #body:before {
@@ -69,7 +69,7 @@ body {
     height: 20px;
 }
 
-#spooky #body #eyes:before
+#spooky #body #eyes:before,
 #spooky #body #eyes:after {
     content: ' ';
     display: block;
@@ -121,7 +121,7 @@ body {
     width: 180px;
     height: 40px;
     border-radius: 50%;
-    animation: zoomy 2s infinate;
+    animation: zoomy 2s infinite;
 }
 
 @keyframes floaty {
@@ -130,7 +130,7 @@ body {
     }
 
     50% {
-        transfrom: translateY(-20px);
+        transform: translateY(-20px);
     }
 }
 
